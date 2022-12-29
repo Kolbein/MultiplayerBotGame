@@ -1,0 +1,77 @@
+# Bot Game
+Shooting game with bots that chase you. Host server or join multiplayer. Start development fall 2022.
+
+## Roadmap
+- [X] Physics
+- [X] Player
+    - [X] Simple Body
+    - [X] Movement
+    - [X] Health
+- [X] Enemy
+    - [X] Simple Body
+    - [X] Navigation
+    - [X] Dealing Damage On Collision
+    - [X] Health Bar
+    - [ ] Hitbox With Varying Damage
+    - [ ] Animation
+    - [ ] Weapon
+- [ ] Weapon
+    - [X] Prefab
+    - [X] Shooting Script
+    - [X] Hit Scan Logic
+    - [X] Bullet Trail
+    - [X] Muzzle Flash
+    - [X] Reloading
+    - [X] Reload Animation
+        - [X] Pistol
+        - [X] Assault Rifle
+    - [ ] Weapon Sway
+    - [ ] Recoil Pattern
+    - [ ] Recoil Animation
+        - [X] Pistol
+        - [ ] Assault Rifle
+    - [X] Multiple Weapons
+        - [X] Pistol
+        - [X] Assault Rifle
+    - [ ] Switching Weapons
+    - [ ] Switching Weapons Animation
+- [ ] UI
+    - [X] Display Ammo
+    - [X] Display Reloading
+    - [X] Display Health
+    - [X] Crosshair
+    - [ ] Menu
+        - [X] Main Menu
+        - [ ] Save/Load
+        - [X] Host Game
+        - [X] Join Game
+        - [X] Settings
+            - [X] Panel
+            - [X] Mouse Sensitivity
+            - [X] Field Of View
+        - [X] Exit Game
+        - [ ] In-game Pause Menu
+- [ ] Audio
+    - [ ] Background Music
+    - [X] Shooting Audio
+        - [X] Assault Rifle
+        - [X] Pistol
+    - [ ] Reloading Audio
+        - [ ] Assault Rifle
+        - [ ] Pistol
+    - [ ] Enemy Audio
+    - [ ] Movement Audio
+        - [ ] Walking
+        - [ ] Running
+        - [ ] Jumping
+- [ ] General
+    - [ ] Save/Load State
+        - [X] PlayerPrefs For Sens/FOV
+        - [ ] Setting Sens/FOV in CharacterController/Camera
+        - [ ] State File?
+- [ ] Multiplayer
+    - [X] GUI for starting
+    - [X] Netcode For Player
+    - [X] Netcode For Bots
+    - [X] Different Player Colors
+- [ ] Fun Game
